@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-anyhow = "1.0.69"
-pin-project = "1.0.12"
-tokio = { version = "1.26.0", features = ["full"] }
+anyhow = "1.0.71"
+pin-project = "1.1.0"
+tokio = { version = "1.28.1", features = ["full"] }
 tower = { version = "0.4.13", features = ["retry"] }
